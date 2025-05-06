@@ -11,7 +11,8 @@ TMDB Movies is a React-based web application that allows users to browse, search
    - Showcases **Trending Movies** and **Popular Movies** in a carousel and grid format.
    - Includes a footer with links to About, Contact, Privacy Policy, and social media.
 
-   ![Home Page](./images/homepage.png)
+   ![Screenshot 2025-05-06 131445](https://github.com/user-attachments/assets/b092bd43-f60d-4dd1-aba3-61e7754cc576)
+
 
 ---
 
@@ -21,7 +22,9 @@ TMDB Movies is a React-based web application that allows users to browse, search
    - Sort movies by popularity or release date.
    - Infinite scrolling to load more movies.
 
-   ![Movies Page](./images/movies-page.png)
+   ![Screenshot 2025-05-06 131811](https://github.com/user-attachments/assets/4e49e03d-6a77-4307-afe2-ea65a5757566)
+![Screenshot 2025-05-06 131725](https://github.com/user-attachments/assets/492199d6-2885-464c-9c0f-7a694e39b06a)
+
 
 ---
 
@@ -31,7 +34,8 @@ TMDB Movies is a React-based web application that allows users to browse, search
    - Sort TV shows by popularity or first air date.
    - Infinite scrolling to load more TV shows.
 
-   ![TV Shows Page](./images/tvshows-page.png)
+   ![Screenshot 2025-05-06 131834](https://github.com/user-attachments/assets/08f8adab-521e-4959-812b-447b0ec7c375)
+
 
 ---
 
@@ -39,7 +43,8 @@ TMDB Movies is a React-based web application that allows users to browse, search
    - Discover trending movies and TV shows.
    - Links to detailed pages for each movie or TV show.
 
-   ![Trending Page](./images/trending-page.png)
+   ![Screenshot 2025-05-06 132025](https://github.com/user-attachments/assets/718824ac-2760-4e2b-8f72-e4154f8bbf10)
+
 
 ---
 
@@ -48,7 +53,9 @@ TMDB Movies is a React-based web application that allows users to browse, search
    - Select a genre to view filtered content.
    - Sort content by popularity or release/air date.
 
-   ![Genres Page](./images/genres-page.png)
+   ![Screenshot 2025-05-06 131926](https://github.com/user-attachments/assets/52409e4e-ebf9-493a-9eff-cfdab9a86341)
+![Screenshot 2025-05-06 131858](https://github.com/user-attachments/assets/1ff38fc9-6f1e-4840-b4b7-52ea475c8200)
+
 
 ---
 
@@ -59,7 +66,9 @@ TMDB Movies is a React-based web application that allows users to browse, search
      - Related movies.
      - Images and videos.
 
-   ![Movie Detail Page](./images/movie-detail-page.png)
+   ![Screenshot 2025-05-06 132354](https://github.com/user-attachments/assets/c37b87c9-10b4-46fd-a608-849f9a45fd6a)
+![Screenshot 2025-05-06 132328](https://github.com/user-attachments/assets/6533cc83-c6a3-4d6b-8a4a-87686356015d)
+
 
 ---
 
@@ -70,7 +79,11 @@ TMDB Movies is a React-based web application that allows users to browse, search
      - Related TV shows.
      - Images and videos.
 
-   ![TV Show Detail Page](./images/tvshow-detail-page.png)
+   ![Screenshot 2025-05-06 132510](https://github.com/user-attachments/assets/9ecb69a0-b7f4-43f5-ae5b-26f7f7eceedf)
+![Screenshot 2025-05-06 132455](https://github.com/user-attachments/assets/f6ad968f-5484-4687-b67a-271a62f13bb4)
+![Screenshot 2025-05-06 132354](https://github.com/user-attachments/assets/f5e8f063-5e5b-4faf-9985-8174bc316e27)
+![Screenshot 2025-05-06 132328](https://github.com/user-attachments/assets/d4b36968-3d56-4a7b-a141-c6369379b9a2)
+
 
 ---
 
@@ -78,8 +91,8 @@ TMDB Movies is a React-based web application that allows users to browse, search
    - Search for movies, TV shows, or people.
    - Displays results in a grid format.
    - Infinite scrolling to load more results.
+![Screenshot 2025-05-06 132110](https://github.com/user-attachments/assets/80dcf0e9-25c4-4448-a223-726cd2c3b492)
 
-   ![Search Page](./images/search-page.png)
 
 ---
 
@@ -91,8 +104,6 @@ TMDB Movies is a React-based web application that allows users to browse, search
      - Genres
      - Trending
      - Search
-
-   ![Navbar](./images/navbar.png)
 
 ---
 
