@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import MovieList from './components/MovieList';
+import MovieDetail from './components/MovieDetail';
+import SearchBar from './components/SearchBar';
+import TVShowList from './components/TVShowList';
+import TVShowDetail from './components/TVShowDetail';
+import MoviesPage from './components/MoviesPage';
+import GenresPage from './components/GenresPage';
+import TrendingPage from './components/TrendingPage';
+import TVShowsPage from './components/TVShowsPage';
+import GenrePage from './components/GenrePage';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <Router>
+            <div>
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<MovieList />} />
+                    <Route path="/movies" element={<MoviesPage />} />
+                    <Route path="/movie/:id" element={<MovieDetail />} />
+                    <Route path="/tv" element={<TVShowsPage />} />
+                    <Route path="/tv/:id" element={<TVShowDetail />} />
+                    <Route path="/genres" element={<GenrePage />} />
+                    <Route path="/trending" element={<TrendingPage />} />
+                    <Route path="/search" element={<SearchBar />} />
+                </Routes>
+                <footer className="footer">
+                    <p>"As long as I live, there are infinite chances!"</p>
+                </footer>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
+

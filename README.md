@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# TMDB Movies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TMDB Movies is a React-based web application that allows users to browse, search, and explore movies and TV shows using the TMDB API. The app provides a rich user experience with features like trending content, genre-based browsing, detailed movie/TV show pages, and more.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. **Home Page**
+   - Displays a **Hero Section** with a featured trending movie.
+   - Showcases **Trending Movies** and **Popular Movies** in a carousel and grid format.
+   - Includes a footer with links to About, Contact, Privacy Policy, and social media.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ![Home Page](./images/homepage.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+### 2. **Movies Page**
+   - Explore all popular movies.
+   - Filter movies by genre (e.g., Action, Comedy, Drama).
+   - Sort movies by popularity or release date.
+   - Infinite scrolling to load more movies.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ![Movies Page](./images/movies-page.png)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 3. **TV Shows Page**
+   - Explore all popular TV shows.
+   - Filter TV shows by genre (e.g., Sci-Fi, Drama, Comedy).
+   - Sort TV shows by popularity or first air date.
+   - Infinite scrolling to load more TV shows.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ![TV Shows Page](./images/tvshows-page.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 4. **Trending Page**
+   - Discover trending movies and TV shows.
+   - Links to detailed pages for each movie or TV show.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ![Trending Page](./images/trending-page.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 5. **Genres Page**
+   - Browse movies and TV shows by genre.
+   - Select a genre to view filtered content.
+   - Sort content by popularity or release/air date.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ![Genres Page](./images/genres-page.png)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 6. **Movie Detail Page**
+   - Detailed information about a movie, including:
+     - Release date, runtime, budget, revenue, genres, and production companies.
+     - Cast and crew details.
+     - Related movies.
+     - Images and videos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ![Movie Detail Page](./images/movie-detail-page.png)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 7. **TV Show Detail Page**
+   - Detailed information about a TV show, including:
+     - First air date, number of seasons/episodes, genres, and networks.
+     - Cast and crew details.
+     - Related TV shows.
+     - Images and videos.
 
-### Analyzing the Bundle Size
+   ![TV Show Detail Page](./images/tvshow-detail-page.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+### 8. **Search Page**
+   - Search for movies, TV shows, or people.
+   - Displays results in a grid format.
+   - Infinite scrolling to load more results.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ![Search Page](./images/search-page.png)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 9. **Navbar**
+   - A sticky navigation bar with links to:
+     - Home
+     - Movies
+     - TV Shows
+     - Genres
+     - Trending
+     - Search
 
-### Deployment
+   ![Navbar](./images/navbar.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Setup and Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Steps to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/tmdb-movies.git
+   cd tmdb-movies
+2. Run `npm install` to install dependencies.
+3. Add your TMDB API key to the `.env` file.
+4. Run `npm start` to start the development server.
